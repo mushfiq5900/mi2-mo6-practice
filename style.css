@@ -89,6 +89,18 @@ header{
 .icon-set img{
     width: 7%;
 }
+/* Youtube Section */
+
+.youtube-video-sec{
+    padding: 50px;
+    font-size: 25px;
+    background-color: rgb(241, 241, 241);
+}
+.y-video{
+    text-align: center;
+}
+/* Our Service  */
+
 .our-service{
     text-align: center;
     font-size: 25px;
@@ -111,6 +123,9 @@ header{
     height: 200px;
     padding: 30px;
 }
+
+/* Gift Areas */
+
 .gift-idea-sec{
     font-size: 25px;
 
@@ -132,6 +147,8 @@ header{
     margin-left: 15%;
 }
 
+/* Popular Products */
+
 .popular-sec{
     background-color: #e4d2c1;
     padding:2% 10%;
@@ -143,6 +160,20 @@ header{
     width: 300px;
     border: 5px solid rgb(201, 201, 201);
 }
+
+/* Funny audio */
+
+.funny-audio-sec{
+    padding: 50px;
+    font-size: 25px;
+    /* background-color: rgb(241, 241, 241); */
+}
+.audio-div{
+    text-align: center;
+}
+
+/* Footer */
+
 footer{
     padding:0;
     background-color: black;
@@ -154,4 +185,7 @@ footer h4{
     text-align: center;
     margin: 0;
     padding-top: 30px;
+}
+audio{
+    margin-top: 20px;
 }
