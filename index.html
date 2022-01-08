@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Milestone 2 Practice</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/nav.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
@@ -17,13 +18,26 @@
         <div class="logo-div half-width">
             <h1>Logo<span class="span-color">Name</span></h1>
         </div>
-        <div class="menu-list half-width">
-            <a class="a-style" href="">Home</a>
-            <a class="a-style" href="">Products</a>
-            <a class="a-style" href="">Contact</a>
-            <a class="a-style" href="">Help</a>
-        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="#">Contact
+                        <ul class="dropdown">
+                            <li><a href="">link 1</a></li>
+                            <li><a href="">link 2</a></li>
+                            <li><a href="">link 3</a></li>
+                            <li><a href="">link 4</a></li>
+                        </ul>
+                    </a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+        </nav>
     </header>
+
+
+
     <section class="hero-banner">
         <div class="h-image">
             <img src="images/hero-image.PNG" alt="">
