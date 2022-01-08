@@ -1,0 +1,157 @@
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+p{
+    font-size:20px;
+    text-align: justify;
+}
+.span-color{
+    color: #ffffff;
+}
+.flexible-display{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+.one-third-width{
+    width: 33.33%;
+}
+.one-fourth-width{
+    width: 25%;
+}
+header {
+    padding: 0;
+    margin: 0;
+}
+header{ 
+    background-color: #e4d2c1;
+}
+.logo-div{
+    height: 100px;
+}
+.logo-div h1{
+    display:inline-block;
+    padding-left: 300px;
+    font-size: 35px;
+}
+.menu-list{
+    margin-left: 400px;
+}
+.a-style{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 15px;
+    padding:2%;
+}
+.a-style:hover{
+    color: white;
+}
+.h-image img{
+    width: 100%;
+}
+.h-image{
+    position: relative;
+}
+.heropart{
+    text-align: center;
+    width: 500px;
+    height: 300px;
+    padding: 5%;
+    margin-top: -40%;
+    margin-left: 32%;
+    border-radius:10px;
+    background-color: #ad957db4;
+    font-size: 25px;
+    position: absolute;
+}
+.banner-btn{
+    margin-top: 20px;
+    display: inline-block;
+    width: 200px;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 4px;
+    padding: 3%;
+    color: black;
+}
+.banner-btn:hover{
+    background-color: black;
+    color: white;
+}
+.icon-set{
+    margin-top: 50px;
+}
+.icon-set img{
+    width: 7%;
+}
+.our-service{
+    text-align: center;
+    font-size: 25px;
+    background-color: #e4d2c1;
+    padding: 2% 10%;
+}
+
+.image-details img{
+    width: 360px;
+    border: 5px solid #adadad;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.image-details p{
+    display: inline-block;
+    background-color: #ffffff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 310px;
+    height: 200px;
+    padding: 30px;
+}
+.gift-idea-sec{
+    font-size: 25px;
+
+}
+
+.gift-text{
+    text-align: center;
+    padding: 5% 10%;
+}
+.gift-text a{
+    color: black;
+    background-color:#e4d2c1;
+    font-size: 20px;
+}
+.gift-image img{
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    height: 80%;
+    margin-left: 15%;
+}
+
+.popular-sec{
+    background-color: #e4d2c1;
+    padding:2% 10%;
+    text-align: center;
+    font-size: 25px;
+}
+.popular-sec img{
+    width: 300px;
+    width: 300px;
+    border: 5px solid rgb(201, 201, 201);
+}
+footer{
+    padding:0;
+    background-color: black;
+    height: 80px;
+    color: white;
+}
+footer h4{
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    padding-top: 30px;
+}
